@@ -1,0 +1,40 @@
+.dashboard {
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 0px;
+    
+}
+.dashboard div {
+    margin-top: 30px;
+    position: absolute;
+    text-align: justify;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 10%;
+    opacity: 1;
+    border: 2px solid #198754;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .dashboard {
+        background-image: none;
+        
+    }
+    .dashboard div {
+        margin-top: 30px;
+        position: absolute;
+        text-align: justify;
+        width: 90%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        opacity: 1;
+        border: 2px solid #198754;
+        border-radius: 30px;
+        padding: 20px;
+    }
+}

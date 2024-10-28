@@ -1,0 +1,44 @@
+.registration {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.registration {
+    border: 3px gray;
+    border-style: none solid solid none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btns {
+    margin-top: 10px;
+}
+.btns div {
+    display: inline;
+    margin-bottom: 10px;
+}
+#reset-btn {
+    margin-left: 10px;
+}
+.loginlink {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.loginlink p {
+    color: dodgerblue;
+}
+.loginlink p:hover {
+    cursor: pointer;
+}
+label {
+    color: gray;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .registration {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

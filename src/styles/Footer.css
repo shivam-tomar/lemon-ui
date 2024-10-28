@@ -1,0 +1,10 @@
+.footer {
+    overflow: hidden;
+    background-color: #B6D0E2;
+    padding: 5px;
+    text-align: center;
+}
+.footer p {
+    color: Black;
+    margin-top: 15px;
+}

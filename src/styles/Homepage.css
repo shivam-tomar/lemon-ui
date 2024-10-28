@@ -1,0 +1,124 @@
+.header {
+    overflow: hidden;
+    background-color: #B6D0E2;
+    padding: 10px 10px;
+}
+
+.header p {
+    float: left;
+    color: #198754;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header h6 {
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header-right div {
+    float: right;
+  }
+
+  .block {
+    width: 50%;
+    margin-left: 25%;
+    padding: 30px;
+  }
+  .col-4 button {
+    float: left;
+  }
+
+  .foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .food-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .foods-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .wishlist-btn {
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: pink;
+    border-radius: 30px;
+    position: absolute;
+    height: 30px;
+    margin-top: -25px;
+    margin-left: -160px;
+    text-align: center;
+  }
+  .wishlist-btn:hover {
+    color: black;
+    background-color: white;
+  }
+  .food-container table {
+    text-align: center;
+  }
+  .food-container tr{
+    width: 100%;
+    border: 1px solid black;
+  }
+  .food-container th{
+    color: white;
+    background-color: black;
+  }
+  .food-container td{
+    width: 150px;
+    text-align: center;
+    border: 1px solid white;
+  }
+  .key {
+    background-color: aqua;
+  }
+  .value {
+    background-color: aquamarine;
+  }
+  .foods-container{
+    border: #198754 solid 2px;
+    border-radius: 10px;
+  }
+  .foods-container p {
+    text-align: center;
+    color: #198754;
+    font-size: 20px;
+  }
+  .foods-container table {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .foods-container tr{
+    border: 1px solid black;
+  }
+  .foods-container th{
+    width: 150px;
+    color: white;
+    background-color: black;
+  }
+  .foods-container td{
+    border: 1px solid white;
+    text-align: center;
+  }
